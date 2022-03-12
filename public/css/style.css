@@ -38,7 +38,8 @@ body {
 #welcome {
   height: 120vh;
   background-image: url(/img/welcome2.jpg);
-  background-size: 100vw 120vh;
+  background-size: 100vw 85vh;
+  background-repeat: no-repeat;
 }
 
 #welcome .text-area {
@@ -46,7 +47,7 @@ body {
   font-size: 25pt;
   text-align: right;
   margin-right: 15%;
-  top: 90%;
+  top: 60%;
   position: relative;
   color: #BDC2BF;
 }
@@ -79,4 +80,27 @@ body {
   width: fit-content;
   border-bottom: 4px solid #BDC2BF;
   ;
+}
+
+#facts {
+  justify-self: center;
+  width: 62vw;
+  display: grid;
+  grid-template-columns: 19vw 19vw 19vw;
+  grid-template-rows: 40pt auto;
+  column-gap: 2.5vw;
+}
+
+#facts article {
+  display: grid;
+  justify-items: center;
+}
+
+#facts i {
+  font-size: 40pt;
+  height: fit-content;
+}
+
+#facts h1 {
+  font-size: 20pt;
 }
