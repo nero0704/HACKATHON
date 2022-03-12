@@ -15,19 +15,7 @@ app.use("/img", express.static("./public/img"));
 
 
 app.get("/", function(req, res) {
-  let doc = fs.readFileSync("./app/html/index.html", "utf8");
-
-  // just send the text stream
-  res.send(doc);
-});
-
-app.get("/markers", function(req, res) {
-
-  let doc = fs.readFileSync("./app/data/google-map-markers.js", "utf8");
-  res.setHeader("Content-Type", "application/json");
-  // just send the text stream
-  res.send(doc);
-
+  res.send(fs.readFileSync("./app/html/main.html", "utf8"));
 });
 
 /*

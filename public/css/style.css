@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+#general-container {
+  display: grid;
+  grid-template-rows: 0 auto;
+  height: 3000px;
+  background-color: black;
+}
+
+#side-nav {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  row-gap: 1vh;
+  justify-items: center;
+  position: sticky;
+  transform: translate(0, 50%);
+  top: 0;
+  left: 2vw;
+  height: 50vh;
+  width: 3vw;
+}
+
+#side-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+}
+
+#welcome {
+  height: 120vh;
+  background-image: url(/img/welcome2.jpg);
+  background-size: 100vw 120vh;
+}
