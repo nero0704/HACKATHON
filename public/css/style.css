@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Abel', sans-serif;
+  font-family: 'PT Mono', monospace;
+  src: url();
+}
+
 body {
   margin: 0;
 }
@@ -6,7 +12,7 @@ body {
   display: grid;
   grid-template-rows: 0 auto;
   height: 3000px;
-  background-color: black;
+  background-color: #23232b;
 }
 
 #side-nav {
@@ -33,4 +39,26 @@ body {
   height: 120vh;
   background-image: url(/img/welcome2.jpg);
   background-size: 100vw 120vh;
+}
+
+#welcome .text-area {
+  font-family: PT Mono;
+  font-size: 25pt;
+  text-align: right;
+  margin-right: 15%;
+  top: 90%;
+  position: relative;
+  color: #BDC2BF;
+}
+
+#purpose {
+  width: 62vw;
+  justify-self: center;
+}
+
+#purpose .text-area {
+  font-family: Abel;
+  text-align: center;
+  font-size: 20pt;
+  color: #BDC2BF;
 }
