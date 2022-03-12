@@ -62,3 +62,21 @@ body {
   font-size: 20pt;
   color: #BDC2BF;
 }
+
+#about {
+  width: 62vw;
+  justify-self: center;
+}
+
+#about .text-area {
+  font-family: Abel;
+  text-align: left;
+  font-size: 20pt;
+  color: #BDC2BF;
+}
+
+#about .text-area h1 {
+  width: fit-content;
+  border-bottom: 4px solid #BDC2BF;
+  ;
+}
