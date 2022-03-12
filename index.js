@@ -40,7 +40,7 @@ app.get("/weekdays", function(req, res) {
   // e.g.,: http://localhost:8000/weekdays?format=html
   // e.g.,: http://localhost:8000/weekdays?format=json
   if (formatOfResponse == "html") {
-    // MIME type
+    // MIME type 
     res.setHeader("Content-Type", "text/html");
     res.send(fs.readFileSync("./app/data/weekdays-html.js", "utf8"));
 
