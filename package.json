@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "name": "hackathon",
+  "description": "<div id=\"top\"></div>\r <!--\r *** Thanks for checking out the Best-README-Template. If you have a suggestion\r *** that would make this better, please fork the repo and create a pull request\r *** or simply open an issue with the tag \"enhancement\".\r *** Don't forget to give the project a star!\r *** Thanks again! Now go create something AMAZING! :D\r -->",
+  "version": "1.0.0",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nero0704/HACKATHON.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nero0704/HACKATHON/issues"
+  },
+  "homepage": "https://github.com/nero0704/HACKATHON#readme"
+}
