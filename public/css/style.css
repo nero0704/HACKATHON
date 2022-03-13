@@ -11,7 +11,8 @@ body {
 #general-container {
   display: grid;
   grid-template-rows: 0 auto;
-  height: 5500px;
+  row-gap: 5vh;
+  height: 3000px;
   background-color: #23232b;
 }
 
@@ -36,7 +37,7 @@ body {
 }
 
 #welcome {
-  height: 90vh;
+  height: 100vh;
   background-image: url(/img/welcome2.jpg);
   background-size: 100vw 85vh;
   background-repeat: no-repeat;
@@ -47,7 +48,7 @@ body {
   font-size: 25pt;
   text-align: right;
   margin-right: 15%;
-  top: 80%;
+  top: 75%;
   position: relative;
   color: #BDC2BF;
 }
@@ -142,11 +143,20 @@ body {
   margin: auto auto;
 }
 
-#members .members-container {
+#members-container {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
 }
 
-#member .column {
+#members-container .column {
   display: grid;
+}
+
+#members-container .column figure {
+  margin: 0;
+}
+
+#members-container .column img {
+  width: 100%;
 }
