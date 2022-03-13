@@ -10,13 +10,13 @@ html {
 
 body {
   margin: 0;
-  overflow-y: scroll;
   height: auto !important;
 }
 
 #general-container {
   display: grid;
   grid-template-rows: auto auto auto auto;
+  grid-template-columns: 100%;
   row-gap: 7vh;
   background-color: #23232b;
 }
@@ -350,6 +350,9 @@ body {
 }
 
 @media screen and (max-width:770px) {
+  html {
+    overflow-x: hidden;
+  }
   #welcome {
     height: 50vh;
     background-image: url(../../public/img/welcome2.jpg);
@@ -389,41 +392,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  #side-nav-container {
-    -webkit-transition: 0.1s ease-in-out;
-    -moz-transition: 0.1s ease-in-out;
-    -ms-transition: 0.1s ease-in-out;
-    -o-transition: 0.1s ease-in-out;
-    transition: 0.1s ease-in-out;
-    opacity: 1;
-    position: fixed;
-    z-index: 2;
-    transform: translate(0, 50%);
-    top: 0;
-    left: 20px;
-    height: 50vh;
-    width: 5vw;
-    border-left: 3px solid #BDC2BF;
-  }
-  #side-nav-container.fade {
-    opacity: 0 !important;
-  }
-  #side-nav {
-    -webkit-transition: 0.1s ease-in-out;
-    -moz-transition: 0.1s ease-in-out;
-    -ms-transition: 0.1s ease-in-out;
-    -o-transition: 0.1s ease-in-out;
-    transition: 0.1s ease-in-out;
-    display: grid;
-    opacity: 0;
-  }
-  #side-nav.fade {
-    opacity: 1 !important;
-  }
   #welcome {
     height: 65vh;
     background-image: url(../../public/img/welcome2.jpg);
-    background-size: 100vw 50vh;
+    background-size: 100vw 30vh;
     background-repeat: no-repeat;
   }
   #welcome .text-area {
@@ -442,35 +414,10 @@ body {
   .text-area h1 {
     font-size: 28pt;
   }
-  #purpose {
-    margin-right: 0%;
-    width: 80vw;
-  }
-  #about {
-    width: 80vw;
-    margin-right: 0%;
-  }
-  #facts {
-    width: 80vw;
-    margin-right: 0%;
-  }
   #facts-container {
-    font-family: Abel;
-    justify-self: center;
-    width: 80vw;
-    display: grid;
-    grid-template-columns: 24vw 24vw 24vw;
-    column-gap: 4vw;
-    margin: auto;
-  }
-  #facts-container i {
-    font-size: 30pt;
-  }
-  #facts-container h1 {
-    font-size: 25pt;
-  }
-  #facts-container p {
-    font-size: 15pt;
+    justify-content: center;
+    grid-template-columns: 50vw;
+    row-gap: 5vh;
   }
   #members {
     display: grid;
