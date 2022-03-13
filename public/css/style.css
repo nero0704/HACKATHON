@@ -420,48 +420,22 @@ body {
     row-gap: 5vh;
   }
   #members {
-    display: grid;
-    grid-template-rows: auto;
-    font-family: Abel;
-    justify-self: center;
     width: 80vw;
     margin-right: 10%;
   }
-  #members .text-area {
-    text-align: center;
-    margin: auto auto;
-  }
-  #members .text-area h1 {
-    text-align: center;
-    margin: auto auto;
-  }
   #members-container {
-    display: grid;
-    grid-template-columns: 20vw 20vw;
-    justify-content: center;
-    column-gap: 70px;
-    row-gap: 70px;
+    grid-template-columns: 50vw;
   }
   #members-container .overlay {
-    opacity: 0;
-    -webkit-transition: opacity 0.1s ease-in-out;
-    -moz-transition: opacity 0.1s ease-in-out;
-    -ms-transition: opacity 0.1s ease-in-out;
-    -o-transition: opacity 0.1s ease-in-out;
-    transition: opacity 0.1s ease-in-out;
-    display: grid;
-    position: absolute;
-    width: 18vw;
-    height: 18vw;
+    width: 48vw;
+    height: 48vw;
     transform: translate(1vw, 1vw);
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 50%;
   }
-  #members-container .overlay.fade {
-    opacity: 1 !important;
+  #members-container .overlay .text-area {
+    font-size: 18pt;
   }
   #members-container .overlay .text-area h1 {
-    font-size: 6pt;
+    font-size: 27pt;
   }
   #members-container figure {
     margin: 0;
