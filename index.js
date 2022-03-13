@@ -15,7 +15,7 @@ app.use("/img", express.static("./public/img"));
 
 
 app.get("/", function(req, res) {
-  res.send(fs.readFileSync("./app/html/main.html", "utf8"));
+  res.send(fs.readFileSync("./app/html/cards.html", "utf8"));
 });
 
 /*
