@@ -69,12 +69,17 @@ body {
   font-size: 25pt;
   text-align: right;
   margin-right: 15%;
-  top: 75%;
+  top: 70%;
   position: relative;
   color: #BDC2BF;
 }
 
 #welcome .text-area h1 {
+  width: initial;
+  border: none;
+}
+
+#welcome .text-area h5 {
   width: initial;
   border: none;
 }
@@ -423,10 +428,13 @@ body {
   }
   #welcome .text-area {
     font-size: 20pt;
-    margin-right: 15%;
+    margin-right: 0%;
   }
   #welcome .text-area h1 {
-    font-size: 30pt;
+    font-size: 9vw;
+  }
+  #welcome .text-area h5 {
+    font-size: 3vw;
   }
   .text-area {
     font-size: 19pt;
@@ -435,13 +443,16 @@ body {
     font-size: 28pt;
   }
   #purpose {
+    margin-right: 0%;
     width: 80vw;
   }
   #about {
     width: 80vw;
+    margin-right: 0%;
   }
   #facts {
     width: 80vw;
+    margin-right: 0%;
   }
   #facts-container {
     font-family: Abel;
@@ -467,7 +478,7 @@ body {
     font-family: Abel;
     justify-self: center;
     width: 80vw;
-    margin: auto;
+    margin-right: 10%;
   }
   #members .text-area {
     text-align: center;
@@ -511,5 +522,10 @@ body {
   }
   #members-container img {
     width: 100%;
+  }
+  .contact {
+    margin-right: 35%;
+    justify-self: center;
+    width: 80vw;
   }
 }

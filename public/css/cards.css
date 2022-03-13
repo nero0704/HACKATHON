@@ -20,7 +20,7 @@ section {
 
 .center {
   display: grid;
-  align-items: center;
+  align-items: top;
   justify-content: center;
 }
 

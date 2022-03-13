@@ -25,7 +25,7 @@
 
 .line {
   display: block;
-  border-bottom: 2px solid #133840;
+  border-bottom: 2px solid #F86624 !important;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   width: 110px;
@@ -129,6 +129,7 @@
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   font-family: 'Abel', sans-serif;
+  color: #F86624;
 }
 
 .contact-email {
@@ -143,6 +144,7 @@
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   font-family: 'Abel', sans-serif;
+  color: #F86624;
 }
 
 .subject {
@@ -157,6 +159,7 @@
   border: 1px solid #575a5a;
   border-radius: 5px;
   font-family: 'Abel', sans-serif;
+  color: #F86624;
 }
 
 .message {
@@ -170,6 +173,7 @@
   border: 1px solid #575a5a;
   border-radius: 5px;
   font-family: 'Abel', sans-serif;
+  color: #F86624;
 }
 
 footer {
@@ -180,11 +184,11 @@ footer {
 }
 
 .project {
-  color: #133840;
+  color: #F86624 !important;
 }
 
 .meta {
-  color: rgb(88, 80, 80);
+  color: #F86624 !important
 }
 
 .footer-bottom {
@@ -192,7 +196,6 @@ footer {
   font-family: 'Abel', sans-serif;
   grid-row: 3 / 4;
   grid-column: 1 / 2;
-  color: rgb(88, 80, 80)
 }
 
 .footer-area {
@@ -221,7 +224,6 @@ footer {
 
 .socials a {
   text-decoration: none;
-  color: #133840;
 }
 
 .socials a i {
@@ -229,5 +231,11 @@ footer {
 }
 
 .socials a:hover {
-  color: #E19600;
+  color: #F86624 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    display: none;
+  }
 }
