@@ -63,7 +63,6 @@ function getResponse() {
     userText = "I need help";
   }
 
-
   let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
 
   $("#textInput").val("");
@@ -87,6 +86,7 @@ function buttonSendText(sampleText) {
 function sendButton() {
   getResponse();
 }
+
 
 // Press enter to send a message
 $("#textInput").keypress(function(e) {
