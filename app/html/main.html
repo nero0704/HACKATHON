@@ -27,7 +27,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Abel&family=PT+Mono&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/3da2767e3a.js" crossorigin="anonymous"></script>
-
+  <script src="../../public/js/show-on-scroll.js"></script>
 
 
 </head>
@@ -50,7 +50,7 @@
     </nav>
 
     <header id="welcome">
-      <div class="text-area">
+      <div class="text-area" data-0-top="opacity:0;left:100px;" data-200-top="opacity:1;left:0px;">
         <h1>The Man Cave</h1>
         <h5>“Pulling you out of that dark place”</h5>
       </div>
@@ -59,7 +59,9 @@
 
 
     <div id="purpose">
-      <div class="text-area">
+      <div class="text-area" data-center-center="opacity:1;left0;" data-0-bottom="
+      opacity:0;left:500px;">
+
         <p><i class="fa-solid fa-quote-left"></i> <span style="font-size: 24pt">M</span>en and women experience many of the same mental health disorders, but their willingness to talk about their challenges and feelings are very different. The perceived
           standards of masculinity and stigmas surrounding men seeking support for mental health disorders continue to present challenges. In scenarios, where a lack of conversation surrounding mental health related challenges exist, the absence of communication
           may lead to a worsening of underlying conditions and to a more acute state of the presenting disorder <i class="fa-solid fa-quote-right"></i></p>
@@ -70,7 +72,8 @@
     <div id="about">
       <div class="text-area">
         <h1>Initiative</h1>
-        <p><span style="font-size: 24pt">A</span>t The Man Cave our goal is to raise awareness of mental health issues for men around the world. We strive to create a platform that allows men understand the symptoms they may be experiencing, find professional
+        <p data-center-center="opacity:1;left0;" data-0-bottom="
+        opacity:0;left:500px;"><span style="font-size: 24pt">A</span>t The Man Cave our goal is to raise awareness of mental health issues for men around the world. We strive to create a platform that allows men understand the symptoms they may be experiencing, find professional
           treatment, and encourages men to break the mental health stigma that leaves millions suffering in silence</p>
       </div>
     </div>
@@ -159,7 +162,8 @@
     </div>
 
     <footer>
-      <div class="footer-area">
+      <div class="footer-area" data-center-center="opacity:1;left:0;" data-0-bottom="
+      opacity:0;left:500px;">
         <h3 class="project">PROJECT <span class="meta">META</span></h3>
         <ul class="socials">
           <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -200,6 +204,10 @@
 
 
 
+  <script src="/js/skrollr.js"></script>
+  <script type="text/javascript">
+    var s = skrollr.init();
+  </script>
 </body>
 
 </html>
