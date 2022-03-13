@@ -21,6 +21,7 @@ function getBotResponse(input) {
 
     case "I'm worried about my friend but I don't know what to do":
       return "Make sure you check up on him or her as much as you can! Talk to a parent or a councillor if possible";
+
     default:
       return "Please input a different question.";
   }
