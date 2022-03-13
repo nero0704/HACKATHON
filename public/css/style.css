@@ -80,33 +80,34 @@ body {
   text-align: left;
 }
 
-#facts {
+#facts-container {
   font-family: Abel;
   justify-self: center;
   width: 62vw;
   display: grid;
   grid-template-columns: 19vw 19vw 19vw;
   column-gap: 2.5vw;
+  margin: auto;
 }
 
-#facts article {
+#facts-container article {
   display: grid;
   grid-template-rows: 40pt 65pt;
   justify-items: center;
 }
 
-#facts i {
+#facts-container i {
   font-size: 40pt;
   height: fit-content;
 }
 
-#facts h1 {
+#facts-container h1 {
   margin: 0.5em;
   font-size: 30pt;
   height: fit-content;
 }
 
-#facts p {
+#facts-container p {
   margin: 0;
   text-align: center;
   font-size: 17pt;

@@ -15,33 +15,7 @@ app.use("/img", express.static("./public/img"));
 
 
 app.get("/", function(req, res) {
-  res.send(fs.readFileSync("./app/html/cards.html", "utf8"));
-});
-
-/*
- * This one accepts a query string
- */
-app.get("/weekdays", function(req, res) {
-
-  let formatOfResponse = req.query["format"];
-
-  // e.g.,: http://localhost:8000/weekdays?format=html
-  // e.g.,: http://localhost:8000/weekdays?format=json
-  if (formatOfResponse == "html") {
-    // MIME type 
-    res.setHeader("Content-Type", "text/html");
-    res.send(fs.readFileSync("./app/data/weekdays-html.js", "utf8"));
-
-  } else if (formatOfResponse == "json") {
-    // MIME type
-    res.setHeader("Content-Type", "application/json");
-    res.send(fs.readFileSync("./app/data/weekdays-json.js", "utf8"));
-
-  } else {
-    // just send JSON message
-    res.send({ status: "fail", msg: "Wrong format!" });
-  }
-
+  res.send(fs.readFileSync("./app/html/main.html", "utf8"));
 });
 
 app.get("/chat", function(req, res) {
@@ -66,30 +40,6 @@ app.get("/chat", function(req, res) {
   }
 
 });
-
-app.get("/response", function(req, res) {
-
-  let formatOfResponse = req.query["format"];
-
-  // e.g.,: http://localhost:8000/weekdays?format=html
-  // e.g.,: http://localhost:8000/weekdays?format=json
-  if (formatOfResponse == "html") {
-    // MIME type 
-    res.setHeader("Content-Type", "text/html");
-    res.send(fs.readFileSync("./app/data/main.js", "utf8"));
-
-  } else if (formatOfResponse == "json") {
-    // MIME type
-    res.setHeader("Content-Type", "application/json");
-    res.send(fs.readFileSync("./app/data/response.js", "utf8"));
-
-  } else {
-    // just send JSON message
-    res.send({ status: "fail", msg: "Wrong format!" });
-  }
-
-});
-
 
 // for page not found (i.e., 404)
 app.use(function(req, res, next) {
