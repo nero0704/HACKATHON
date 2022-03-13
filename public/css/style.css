@@ -38,6 +38,10 @@ body {
   font-size: 2vw;
 }
 
+.special {
+  color: orange;
+}
+
 #welcome {
   height: 100vh;
   background-image: url(../../public/img/welcome2.jpg);
