@@ -4,6 +4,10 @@
   src: url();
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -12,10 +16,7 @@ body {
   display: grid;
   grid-template-rows: auto auto auto auto;
   row-gap: 1vh;
-  height: 5000px;
   background-color: #23232b;
-  scroll-behavior: smooth;
-  overflow-y: scroll;
 }
 
 #side-nav {
@@ -29,13 +30,19 @@ body {
   top: 0;
   left: 2vw;
   height: 50vh;
-  width: 3vw;
+  width: 5vw;
 }
 
 #side-nav a {
+  display: grid;
   text-decoration: none;
   color: white;
   font-size: 2vw;
+  width: 100%;
+}
+
+#side-nav i {
+  margin: auto;
 }
 
 .special {

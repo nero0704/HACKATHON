@@ -20,6 +20,7 @@ function getBotResponse(input) {
 
     case "I'm worried about my friend but I don't know what to do":
       return "Make sure you check up on him or her as much as you can! Talk to a parent or a councillor if possible";
+
     default:
       return "Please contact the 24/7 support service at 310-6789 or contact the 24/7 suicide hotline at +1 833-456-4566 <br> If you have anymore questions please feel free to email us below.";
   }
