@@ -29,7 +29,7 @@
 
 .full-chat-block {
   width: 350px;
-  background: #D4CFC9;
+  background: white;
   text-align: center;
   overflow: auto;
   scrollbar-width: none;
