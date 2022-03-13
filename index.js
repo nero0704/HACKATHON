@@ -16,8 +16,6 @@ app.use("/img", express.static("./public/img"));
 
 app.get("/", function(req, res) {
   res.send(fs.readFileSync("./app/html/main.html", "utf8"));
-<<<<<<< Updated upstream
-=======
 });
 
 /*
@@ -44,7 +42,6 @@ app.get("/weekdays", function(req, res) {
     res.send({ status: "fail", msg: "Wrong format!" });
   }
 
->>>>>>> Stashed changes
 });
 
 app.get("/chat", function(req, res) {
