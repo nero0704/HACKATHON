@@ -350,6 +350,10 @@ body {
 }
 
 @media screen and (max-width:770px) {
+  #general-container {
+    touch-action: auto;
+    -ms-touch-action: auto;
+  }
   html {
     overflow-x: hidden;
   }
@@ -394,9 +398,7 @@ body {
 @media screen and (max-width: 600px) {
   #welcome {
     height: 65vh;
-    background-image: url(../../public/img/welcome2.jpg);
     background-size: 100vw 30vh;
-    background-repeat: no-repeat;
   }
   #welcome .text-area {
     font-size: 20pt;
