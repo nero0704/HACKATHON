@@ -10,12 +10,14 @@ html {
 
 body {
   margin: 0;
+  overflow-y: scroll;
+  height: auto !important;
 }
 
 #general-container {
   display: grid;
   grid-template-rows: auto auto auto auto;
-  row-gap: 1vh;
+  row-gap: 7vh;
   background-color: #23232b;
 }
 
@@ -26,6 +28,7 @@ body {
   row-gap: 1vh;
   justify-items: center;
   position: fixed;
+  z-index: 2;
   transform: translate(0, 50%);
   top: 0;
   left: 2vw;
@@ -41,12 +44,16 @@ body {
   width: 100%;
 }
 
+.active i {
+  color: black !important;
+}
+
 #side-nav i {
   margin: auto;
 }
 
 .special {
-  color: orange;
+  color: #F86624;
 }
 
 #welcome {
