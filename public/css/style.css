@@ -36,7 +36,7 @@ body {
 }
 
 #welcome {
-  height: 120vh;
+  height: 90vh;
   background-image: url(/img/welcome2.jpg);
   background-size: 100vw 85vh;
   background-repeat: no-repeat;
@@ -47,39 +47,37 @@ body {
   font-size: 25pt;
   text-align: right;
   margin-right: 15%;
-  top: 60%;
+  top: 80%;
   position: relative;
   color: #BDC2BF;
+}
+
+#welcome .text-area h1 {
+  width: initial;
+  border: none;
+}
+
+.text-area {
+  font-family: Abel;
+  font-size: 20pt;
+  color: #BDC2BF;
+}
+
+.text-area h1 {
+  width: fit-content;
+  border-bottom: 4px solid #BDC2BF;
 }
 
 #purpose {
   width: 62vw;
   justify-self: center;
-}
-
-#purpose .text-area {
-  font-family: Abel;
   text-align: center;
-  font-size: 20pt;
-  color: #BDC2BF;
 }
 
 #about {
   width: 62vw;
   justify-self: center;
-}
-
-#about .text-area {
-  font-family: Abel;
   text-align: left;
-  font-size: 20pt;
-  color: #BDC2BF;
-}
-
-#about .text-area h1 {
-  width: fit-content;
-  border-bottom: 4px solid #BDC2BF;
-  ;
 }
 
 #facts {
@@ -88,12 +86,12 @@ body {
   width: 62vw;
   display: grid;
   grid-template-columns: 19vw 19vw 19vw;
-  grid-template-rows: 40pt auto;
   column-gap: 2.5vw;
 }
 
 #facts article {
   display: grid;
+  grid-template-rows: 40pt 65pt;
   justify-items: center;
 }
 
@@ -105,10 +103,38 @@ body {
 #facts h1 {
   margin: 0.5em;
   font-size: 30pt;
+  height: fit-content;
 }
 
 #facts p {
   margin: 0;
   text-align: center;
   font-size: 17pt;
+}
+
+#members {
+  display: grid;
+  grid-template-rows: auto;
+  font-family: Abel;
+  justify-self: center;
+  width: 62vw;
+}
+
+#members .text-area {
+  text-align: center;
+  margin: auto auto;
+}
+
+#members .text-area h1 {
+  text-align: center;
+  margin: auto auto;
+}
+
+#members .members-container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+#member .column {
+  display: grid;
 }
