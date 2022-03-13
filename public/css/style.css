@@ -10,10 +10,12 @@ body {
 
 #general-container {
   display: grid;
-  grid-template-rows: 0 auto;
+  grid-template-rows: auto;
   row-gap: 5vh;
   height: 3000px;
   background-color: #23232b;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 #side-nav {
@@ -22,7 +24,7 @@ body {
   grid-template-rows: auto;
   row-gap: 1vh;
   justify-items: center;
-  position: sticky;
+  position: fixed;
   transform: translate(0, 50%);
   top: 0;
   left: 2vw;
