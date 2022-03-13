@@ -129,7 +129,7 @@
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   font-family: 'Abel', sans-serif;
-  color: #F86624;
+  color: #000000;
 }
 
 .contact-email {
@@ -144,7 +144,7 @@
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   font-family: 'Abel', sans-serif;
-  color: #F86624;
+  color: #000000;
 }
 
 .subject {
@@ -159,7 +159,7 @@
   border: 1px solid #575a5a;
   border-radius: 5px;
   font-family: 'Abel', sans-serif;
-  color: #F86624;
+  color: #000000;
 }
 
 .message {
@@ -173,7 +173,7 @@
   border: 1px solid #575a5a;
   border-radius: 5px;
   font-family: 'Abel', sans-serif;
-  color: #F86624;
+  color: #000000;
 }
 
 footer {
