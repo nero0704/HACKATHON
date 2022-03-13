@@ -464,13 +464,13 @@ body {
     margin: auto;
   }
   #facts-container i {
-    font-size: 30pt;
+    font-size: 15pt;
   }
   #facts-container h1 {
-    font-size: 25pt;
+    font-size: 10pt;
   }
   #facts-container p {
-    font-size: 15pt;
+    font-size: 10pt;
   }
   #members {
     display: grid;
@@ -514,7 +514,7 @@ body {
     opacity: 1 !important;
   }
   #members-container .overlay .text-area h1 {
-    font-size: 28pt;
+    font-size: 6pt;
   }
   #members-container figure {
     margin: 0;
