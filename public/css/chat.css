@@ -168,6 +168,9 @@
   }
   
   @media screen and (max-width:600px) {
+    .content-chat {
+      border-radius: 0;
+    }
     .full-chat-block {
       width: 100%;
       border-radius: 0px;
@@ -183,5 +186,6 @@
       border: 0px;
       border-top: 3px solid white;
       border-radius: 0px;
+      margin: 0;
     }
   }

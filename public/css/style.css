@@ -345,9 +345,6 @@ body {
 }
 
 @media screen and (max-width:770px) {
-  body {
-    overflow-x: hidden;
-  }
   #welcome {
     height: 50vh;
     background-image: url(../../public/img/welcome2.jpg);
