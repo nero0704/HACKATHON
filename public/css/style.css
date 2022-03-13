@@ -31,7 +31,7 @@ body {
   z-index: 2;
   transform: translate(0, 50%);
   top: 0;
-  left: 2vw;
+  left: 30px;
   height: 50vh;
   width: 5vw;
 }
@@ -40,7 +40,7 @@ body {
   display: grid;
   text-decoration: none;
   color: white;
-  font-size: 2vw;
+  font-size: 20pt;
   width: 100%;
 }
 
@@ -107,8 +107,12 @@ body {
   text-align: center;
 }
 
-#facts .text-area h1 {
+#facts .text-area {
   width: 100%;
+}
+
+#facts .text-area h1 {
+  margin: auto;
 }
 
 #facts-container {
@@ -178,5 +182,10 @@ body {
 }
 
 #members-container .column img {
-  width: 100%;
+  width: 80%;
 }
+
+
+/* #members-container .column img:hover {
+  width: 100%;
+} */
