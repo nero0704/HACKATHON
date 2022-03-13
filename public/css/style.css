@@ -119,6 +119,7 @@ body {
   font-family: Abel;
   justify-self: center;
   width: 62vw;
+  margin: auto;
 }
 
 #members .text-area {
