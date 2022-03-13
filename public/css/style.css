@@ -11,7 +11,7 @@ body {
 #general-container {
   display: grid;
   grid-template-rows: 0 auto;
-  height: 3000px;
+  height: 5500px;
   background-color: #23232b;
 }
 
@@ -78,6 +78,16 @@ body {
   width: 62vw;
   justify-self: center;
   text-align: left;
+}
+
+#facts {
+  width: 62vw;
+  justify-self: center;
+  text-align: center;
+}
+
+#facts .text-area h1 {
+  width: 100%;
 }
 
 #facts-container {
