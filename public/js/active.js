@@ -6,7 +6,6 @@ var count = false;
 function updatePage() {
   const { scrollTop, scrollHeight } = document.documentElement;
   const scrollPercent = `${(scrollTop / (scrollHeight - window.innerHeight)) * 100}`;
-  console.log(scrollPercent);
 
   if (scrollPercent == 0) {
     navbar.forEach(nav => nav.classList.remove("active"))
@@ -28,7 +27,7 @@ function updatePage() {
     navbar[5].classList.add("active");
   }
 
-  if (scrollPercent >= 43.94812680115274 && !count) {
+  if (scrollPercent >= 46.788413098236774 && scrollPercent <= 78.99874055415617 && !count) {
     count = true;
     valueDisplays.forEach((valueDisplay) => {
       let startValue = 0;

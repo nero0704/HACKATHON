@@ -151,6 +151,22 @@
     }
   }
   
+  @media screen and (max-width:1050px) {
+    .content-chat {
+      border-radius: 10px 10px 0 0;
+    }
+    .full-chat-block {
+      width: 80vw;
+    }
+    .chat-bar-collapsible {
+      right: 20px;
+    }
+    .collapsible {
+      width: initial;
+      margin-left: 70%;
+    }
+  }
+  
   @media screen and (max-width:600px) {
     .full-chat-block {
       width: 100%;
