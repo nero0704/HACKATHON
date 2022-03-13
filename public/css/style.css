@@ -6,13 +6,11 @@
 
 body {
   margin: 0;
-  scroll-behavior: smooth;
-  overflow-y: scroll;
 }
 
 #general-container {
   display: grid;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto auto auto;
   row-gap: 1vh;
   height: 5000px;
   background-color: #23232b;
