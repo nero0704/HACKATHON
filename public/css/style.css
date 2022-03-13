@@ -45,6 +45,10 @@ body {
   margin: auto;
 }
 
+.special {
+  color: orange;
+}
+
 #welcome {
   height: 100vh;
   background-image: url(../../public/img/welcome2.jpg);
